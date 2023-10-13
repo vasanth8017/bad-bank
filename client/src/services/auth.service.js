@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const PORT = process.env.PORT || 3000;
-const API_URL = "http://localhost:" + PORT + "/api/auth/";
+const API_URL = "https://bad-bank-server-ekxj.onrender.com/api/auth/";
 const DEFAULT_BALANCE = 0;
 const DEFAULT_ROLE = ["USER"];
 
